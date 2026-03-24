@@ -1,21 +1,21 @@
-import Map from "/StationMapWasm/JS/node_modules/ol/Map.js";
-import View from "/StationMapWasm/JS/node_modules/ol/View.js";
-import OSM from "/StationMapWasm/JS/node_modules/ol/source/OSM.js";
-import TileLayer from "/StationMapWasm/JS/node_modules/ol/layer/Tile.js";
+import Map from "./JS/node_modules/ol/Map.js";
+import View from "./JS/node_modules/ol/View.js";
+import OSM from "./JS/node_modules/ol/source/OSM.js";
+import TileLayer from "./JS/node_modules/ol/layer/Tile.js";
 
-import Style from "/StationMapWasm/JS/node_modules/ol/style/Style.js";
-import Text from "/StationMapWasm/JS/node_modules/ol/style/Text.js";
-import Fill from "/StationMapWasm/JS/node_modules/ol/style/Fill.js";
-import Stroke from "/StationMapWasm/JS/node_modules/ol/style/Stroke.js";
-import Circle from "/StationMapWasm/JS/node_modules/ol/style/Circle.js";
-import RegularShape from "/StationMapWasm/JS/node_modules/ol/style/RegularShape.js";
-import Icon from "/StationMapWasm/JS/node_modules/ol/style/Icon.js";
+import Style from "./JS/node_modules/ol/style/Style.js";
+import Text from "./JS/node_modules/ol/style/Text.js";
+import Fill from "./JS/node_modules/ol/style/Fill.js";
+import Stroke from "./JS/node_modules/ol/style/Stroke.js";
+import Circle from "./JS/node_modules/ol/style/Circle.js";
+import RegularShape from "./JS/node_modules/ol/style/RegularShape.js";
+import Icon from "./JS/node_modules/ol/style/Icon.js";
 
-import GeoJSON from "/StationMapWasm/JS/node_modules/ol/format/GeoJSON.js";
-import VectorLayer from "/StationMapWasm/JS/node_modules/ol/layer/Vector.js";
-import VectorSource from "/StationMapWasm/JS/node_modules/ol/source/Vector.js";
+import GeoJSON from "./JS/node_modules/ol/format/GeoJSON.js";
+import VectorLayer from "./JS/node_modules/ol/layer/Vector.js";
+import VectorSource from "./JS/node_modules/ol/source/Vector.js";
 
-import * as olUtil from "/StationMapWasm/JS/node_modules/ol/util.js";
+import * as olUtil from "./JS/node_modules/ol/util.js";
 
 // key:value int:Feature 
 const featuresMap = new Map();
